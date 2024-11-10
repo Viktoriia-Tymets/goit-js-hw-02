@@ -1,7 +1,6 @@
 function getShippingCost(country) {
 
     const option = country;
-    let message = '';
 
     switch (option) {
         case 'Australia':
@@ -23,6 +22,7 @@ function getShippingCost(country) {
             console.log('Sorry, there is no delivery to your country');
     }
 }
+
 
 console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
 console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
